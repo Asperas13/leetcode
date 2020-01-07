@@ -52,6 +52,7 @@
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Easy | Hash Table | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/205.py) |
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Linked List | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/206.py) |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | Design, Trie | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/208.py) |
+| 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | Medium | BackTracking, Design, Trie | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/211.py) |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium | Array, Backtracking | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/216.py) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Array, Hash Table | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/217.py) |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | Stack, Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/225.py) |
@@ -69,10 +70,14 @@
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | Tree, Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/297.py) |
 | 341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | Medium | Stack, Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/341.py) |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | String, Two Pointers | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/344.py) |
+| 346 | [Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/) | Easy | Design, Queue | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/346.py) |
 | 348 | [Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/) | Medium | Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/348.py) |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy | Hash Table, Two Pointers, Binary Search, Sort | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/350.py) |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | Medium | Hash Table, Heap, Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/355.py) |
+| 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | Easy | Hash Table, Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/359.py) |
 | 362 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) | Medium | Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/362.py) |
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | Medium | Binary Search, Heap | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/378.py) |
+| 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) | Medium | Linked List, Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/379.py) |
 | 380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | Medium | Array, Hash Table, Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/380.py) |
 | 385 | [Mini Parser](https://leetcode.com/problems/mini-parser/) | Medium | String, Stack | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/385.py) |
 | 389 | [Find the Difference](https://leetcode.com/problems/find-the-difference/) | Easy | Hash Table, Bit Manipulation | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/389.py) |
@@ -101,6 +106,7 @@
 | 657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | Easy | String | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/657.py) |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | Hash Table, Heap, Trie | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/692.py) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | Binary Search | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/704.py) |
+| 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Easy | Hash Table, Design | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/706.py) |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | Easy | String | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/709.py) |
 | 728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | Easy | Math | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/728.py) |
 | 760 | [Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/) | Easy | Hash Table | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/760.py) |
@@ -117,8 +123,10 @@
 | 860 | [Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Easy | Greedy | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/860.py) |
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | Easy | Tree, DFS | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/872.py) |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | Linked List | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/876.py) |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | Sort | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/912.py) |
 | 929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | Easy | String | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/929.py) |
 | 937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | Easy | String, Sort | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/937.py) |
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | Tree, Recursion | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/938.py) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | D&C, Heap, Sort | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/973.py) |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | Array, Two Pointers | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/977.py) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Easy | BFS | [Python](https://github.com/Asperas13/leetcode/blob/master/problems/994.py) |

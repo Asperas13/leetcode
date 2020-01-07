@@ -1,40 +1,23 @@
 class Solution:
-    def lemonadeChange(self, bills):
-        """
-        :type bills: List[int]
-        :rtype: bool
-        """
-
-        l = []
-
-        for bill in bills:
-            k = bill - 5
-
-            if k == 5:
-                if l.count(5) >= 1:
-                    l.remove(5)
+    def lemonadeChange(self, bills: List[int]) -> bool:
+        s = {5: 0, 10: 0, 20: 0}
+        for i in bills:
+            if i == 5:
+                s[5] += 1
+            elif i == 10:
+                if s[5] > 0:
+                    s[5] -= 1
+                    s[10] += 1
                 else:
                     return False
-
-            if k == 10:
-                if l.count(5) >= 2:
-                    for i in range(2):
-                        l.remove(5)
-                elif l.count(10) >= 1:
-                    l.remove(10)
+            else:
+                if s[5] > 0 and s[10] > 0:
+                    s[5] -= 1
+                    s[10] -= 1
+                    s[20] += 1
+                elif s[5] >= 3:
+                    s[5] -= 3
+                    s[20] += 1
                 else:
                     return False
-
-            if k == 15:
-                if l.count(5) >= 1 and l.count(10) >= 1:
-                    l.remove(5)
-                    l.remove(10)
-                elif l.count(5) >= 3:
-                    for i in range(3):
-                        l.remove(5)
-                else:
-                    return False
-
-            l.append(bill)
-
         return True
